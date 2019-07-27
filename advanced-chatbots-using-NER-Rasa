@@ -1,9 +1,9 @@
 Design of advanced Chatbots NER and Rasa
 
 Idea:
-To build achatbot that understand the context (intent)and can also extract entities, 
+To build achatbot that understand the context (intent) and also extract entities, 
 we need an NLP pipeline that canperform intent classification,along with NER extraction,
-and then provide an acurate response.
+and then provide an accurate response.
 
 Rasa NLU is a Natral Language Understanding tool forunderstnding a text/document. 
 
@@ -56,3 +56,4 @@ Steps:
 
    }
    
+Reference: "Python Deep Learning projects" M. Lamons, R. Kumar, A. Nagaraja
