@@ -1,0 +1,3 @@
+language: "en"
+pipeline: "spacy_sklearn"
+fine_tune_spacy_ner: true
