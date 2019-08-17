@@ -23,6 +23,7 @@ Usages:
    intent_examples": [intent_list]
    }
  }
+ 
 3) training the model
    * create a "config_spacy.yml" file in the working directory, consist of 3 lines:
       * language: "en"
