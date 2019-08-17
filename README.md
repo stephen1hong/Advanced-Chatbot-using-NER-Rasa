@@ -24,21 +24,21 @@ Usages:
    }
  }
 3) training the model
-   *) create a "config_spacy.yml" file in the working directory, consist of 3 lines:
-    * language: "en"
-    * pipeline: spacy_sklearn"
-    * fine_tune-spacy_ner: true
-  *) run training using command in console:
+   * create a "config_spacy.yml" file in the working directory, consist of 3 lines:
+      * language: "en"
+      * pipeline: spacy_sklearn"
+      * fine_tune-spacy_ner: true
+  * run training using command in console:
      * python -m rasa_nlu.train \
    --config config_spacy.yml \
    --data restaurant.json \
    --path projects
 
 4) deploying the model 
-  *) run command:
+  * run command:
       * python -m rasa_nlu.server --path projects
    
-  *) To access the API for querying the model, run command like below:
+  * To access the API for querying the model, run command like below:
       * curl -X POST localhost:5000/parse -d '{"q": I am looking for Mexican food"}' | python -m json.tool
 
 ---
