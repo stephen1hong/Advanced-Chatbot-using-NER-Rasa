@@ -7,7 +7,7 @@ and then provide an accurate response.
 
 Rasa NLU is a Natral Language Understanding tool forunderstnding a text/document. 
 
-Steps: 
+Usages: 
  1) Install Rasa in console
   * pip install rasa_nlu
   * pip install coloredlogs sklearn_crfsuite spacy
